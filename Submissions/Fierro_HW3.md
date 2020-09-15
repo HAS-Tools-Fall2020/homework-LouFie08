@@ -1,5 +1,14 @@
 # Lourdes Fierro. September 13, 2020. Assignment 3
 
+---------
+# Grade
+
+3/3 - Nice Job! 
+
+One note: I didn't take off points this time, but next time include your py file into this folder per the submission instructions.
+
+---
+
 # # Analysis
 1. Describe the variables flow, year, month, and day. What type of objects are they, what are they composed of, and how long are they?
 - Flow: This object is a list which is composed of 11578 float elements.
