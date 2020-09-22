@@ -1,6 +1,10 @@
 # Lourdes Fierro. September 21, 2020. Assignment 4
+___
+### Grade
+3/3 - great work! Next time try including the graphs with the atom plugin. I'm not sure why but I can't see them here.  
+___
 
-# # Analysis
+## Analysis
 1. Include discussion of the quantitative analysis that lead to your prediction. This can include any analysis you complete but must include at least two histograms and some quantitative discussion of flow quantiles that helped you make your decision.
 - Weekly forecast: My first step was to estimate the average flow for the precious week from this year. I compared this value with the  mean flow for this week through all time (30 years). The histogram helped me to identify which flow values are more common for this week. Since my mean value for last week was within the the second group of frequent values, I decided to still stay close to this value for my prediction. Finally, I used the quantiles to see which one was closer to my mean value. All this information helped me to decide my guess for both weeks. For week 2 forecast adn seasonal forecast, instead of using the weeks of this year (for obvious reasons :V), I used the average value from last year considering thst this year has been dryer.
 * 1st week histogram:
