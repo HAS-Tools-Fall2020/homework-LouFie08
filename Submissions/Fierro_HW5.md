@@ -1,5 +1,10 @@
 # Lourdes Fierro. September 21, 2020. Assignment 4
 
+___
+## Grade
+3/3 - Nice job!!
+___
+
 ## Analysis
 1. Include discussion of the quantitative analysis that lead to your prediction. This can include any analysis you complete but must include at least two histograms and some quantitative discussion of flow quantiles that helped you make your decision.
 - Weekly forecast: I check the minimum value for this week and last week in all the data (since 1989). I also checked at the mean from last week and I compared that with the minimum from all time. This gave an idea about hoy dry this year is compared to others. From this point I just guess that the value for week 1 and week 2 should be between the min from all time and the first quartile, being much more closer to the min that to the quartile. I repeated the same process for all weeks. Not sure if this procedure is  better, but at least it was easier than previous weeks :D.
