@@ -79,8 +79,8 @@ ___
 6. Find the highest and lowest flow values for every month of the year (i.e. you will find 12 maxes and 12 mins) and report back what year these occurred in.
 
 |      Min      |       Max       |   Month  |
-|  (year,flow)  |   (year,flow)   |   :---:  |
 |     :---:     |      :---:      |   :---:  |
+|  (year,flow)  |   (year,flow)   |          |
 | (2003, 158.0) |  (1993, 63400.0)|     1    |
 | (1991, 136.0) |  (1993, 61000.0)|     2    |
 | (1989, 97.0)  |  (1995, 30500.0)|     3    |
