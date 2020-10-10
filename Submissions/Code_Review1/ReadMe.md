@@ -3,10 +3,10 @@
 
 ### Getting the data
 1. Download the streamflow data using the [USGS website](https://waterdata.usgs.gov/nwis/dv/?site_no=09506000&agency_cd=USGS).
-2. In order to download the data insert as begin date: 1989-01-01 and for the end date 10-10-2020.
-3. For the output format select Tab-separated and finally click the go caption.
-4. The streamflow data is going to be displayed in a different page. Do a right click in this new page and save the file as streamflow_week7.txt.
-5. Once the data file is on your computer, save it in the data folder located in homework-LouFie08/Submissions/Code_Review1/data
+2. In order to download the data insert as begin date: *1989-01-01* and for the end date *10-10-2020*.
+3. For the output format select Tab-separated. Then click the *go* box.
+4. The streamflow data is going to be displayed in a different page. Do a right click in this new page and save the file as *streamflow_week7.txt*.
+5. Once the data file is on your computer, save it in the data folder located in *homework-LouFie08/Submissions/Code_Review1/data*
 
 ### How to run  Fierro_HW7.py code
 1. Open Fierro_HW7.py script in your favorite text editor, but I recommend you to do it on VS Code.
