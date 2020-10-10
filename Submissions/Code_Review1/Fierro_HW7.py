@@ -1,5 +1,5 @@
-# %% (CELL 0) 
-# AR model and plot 
+# %% (CELL 0)
+# AR model and plot
 # Modules to be used (pip install for sklearn)
 
 import os
@@ -30,7 +30,7 @@ data['month'] = pd.DatetimeIndex(data['datetime']).month
 data['day'] = pd.DatetimeIndex(data['datetime']).dayofweek
 data['dayofweek'] = pd.DatetimeIndex(data['datetime']).dayofweek
 
-# %% (CELL 3) 
+# %% (CELL 3)
 # Q1. AR model that you ended up building
 # 1st step: Arrays to build model
 wkly_flow_mean = data.resample("W", on='datetime').mean()  # Flow to weekly
@@ -54,8 +54,8 @@ x_val_model = test_weeks['flow_tm1'].values.reshape(-1, 1)  # Testing values
 y_val_model = test_weeks['flow'].values  # Testing values
 reg_model.fit(x_val_model, y_val_model)  # Fit linear model
 coeff_det = np.round(reg_model.score(x_val_model, y_val_model))  # r^2
-b = np.round(reg_model.intercept_, 2) # Intercept
-m = np.round(reg_model.coef_, 2) # Slope
+b = np.round(reg_model.intercept_, 2)  # Intercept
+m = np.round(reg_model.coef_, 2)  # Slope
 
 # Intercept and the slope (Final equation) y=mx+b
 print('Final equation is y = :', m[:1], 'x + ', b)
@@ -121,24 +121,26 @@ fig.savefig("Observed_simulated_Flow_hst.png")
 # %% Cell 5
 #  Q3. provide discussion on what you actually used for your forecast.
 # Weekly prediction
-# b, m, end, no_weeks):
+# b, m, end, no_weeks:
 
 
 def week_prediction(flow, m, b, week_pred, end, prev_wks):
     """This function needs the stream flow data (flow), the intersection
     and slope values from AR model (m, b), and range of weeks you want to
-    consider for wekkly forecast (prev_wks and end). To indicate the week
-    to forecast include the week number (week_pred = 1 or week_pred = 2) """
+    consider for weekly forecast (prev_wks and end). To indicate the week
+    to forecast include the week number (week_pred = 1 or week_pred = 2)
+    We are using the mean value of the data range you select - the standard
+    deviation of the same data range """
 
-    if week_pred == 2:  # Prediction week 1
-        lw_t = flow['flow'][no_weeks-prev_wks:no_weeks-end].mean() - flow[
-             'flow'][no_weeks - prev_wks:no_weeks-end].std()
-        prediction = b + m * lw_t
+    if week_pred == 2:  # Prediction week 2
+        flow_range_value = flow['flow'][no_weeks-prev_wks:no_weeks-end].mean() - flow[
+                           'flow'][no_weeks - prev_wks:no_weeks-end].std()  # flow range mean - std
+        prediction = b + m * flow_range_value
         print('Week', week_pred, 'forecast using model is:', prediction)
-    elif week_pred == 1: # Prediction week 2
-        lw_t = flow['flow'][no_weeks-prev_wks-5:no_weeks-end].mean() - flow[
-               'flow'][no_weeks - prev_wks-5:no_weeks-end].std()
-        prediction = b + m * lw_t
+    elif week_pred == 1:  # Prediction week 1
+        flow_range_value = flow['flow'][no_weeks-prev_wks-5:no_weeks-end].mean() - flow[
+               'flow'][no_weeks - prev_wks-5:no_weeks-end].std()  # flow range mean - std
+        prediction = b + m * flow_range_value
         print('Week', week_pred, 'forecast using model is:', prediction)
     return prediction
 
@@ -159,15 +161,17 @@ print("Forecast submission values for Week 1 and Week 2 ")
 # Decide how many previous weeks you want to consider
 # We are using last year data to estimate this year
 begining_week_ly = 1523  # start week year 1990
-ending_week_ly = 1510 # end week year 1990
-a = wkly_flow_mean['flow'][no_weeks-begining_week_ly:no_weeks-ending_week_ly]
+ending_week_ly = 1510  # end week year 1990
+dates_weeks_range = wkly_flow_mean['flow'][no_weeks-begining_week_ly:
+                                           no_weeks-ending_week_ly]
 
 wk1_pre_ly = week_prediction(flow=wkly_flow_mean, m=m, b=b,
-                          prev_wks=begining_week_ly, end=ending_week_ly, week_pred=1)
+                             prev_wks=begining_week_ly, end=ending_week_ly, week_pred=1)
 wk2_pre_ly = week_prediction(flow=wkly_flow_mean, m=m, b=b,
-                          prev_wks=begining_week_ly, end=ending_week_ly, week_pred=2)
+                             prev_wks=begining_week_ly, end=ending_week_ly, week_pred=2)
 
 print("")
-print("Dates for streamflow used in forecast", a.index)
-
-# %%
+print("Dates for streamflow used in forecast", dates_weeks_range.index)
+print("")
+print("Thank you for the feedback :) ")
+# %% Use this to run the whole code
