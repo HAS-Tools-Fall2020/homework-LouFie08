@@ -26,7 +26,18 @@
 2. Using the rubric mentioned in 1. of this part, feel free to provide as many feebdback as you want :).
 3. Use the section below to write your feedback and answer the questions.
 
+### Forecast values
+
+* Week 1 forecast regression based:
+* Week 2 forecast regression based:
+
+* Week 1 forecast submission values:
+* Week 2 forecast submission values:
+
+
+
 ### Code Review
+Use this section to complete and write the feedback review
 1. Is the script easy to read and understand?
  - Are variables and functions named descriptively when useful?
  - Are the comments helpful?
