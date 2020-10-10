@@ -17,14 +17,14 @@
 5. The values based in the regression model are in variables: wk1_pre and wk2_pre. You can also find them printed in the interactive screen if you are using VS Code. Enter these values in the space below in the the correct section.
 5. The values to submit for this week forecast assignment are wk1_pre_ly and wk2_pre_ly. You can also find them printed in the interactive screen if you are using VS Code. Enter these values in the space below in the the correct section.
 
-## Update week 7 entries
+### Update week 7 entries
 1. Go to [forecast entries](https://github.com/HAS-Tools-Fall2020/forecasting/tree/master/forecast_entries) folder and update fierro.csv entries for 1week and 2week in the 10/12/20 row.
 2. Open [fierro.csv](https://github.com/HAS-Tools-Fall2020/forecasting/blob/master/forecast_entries/fierro.csv) file and check that the values for *1week* and *2week* are there and match with the results.
 
-# Review of the py code
+### Review of the py code
 1. Follow the instructions in the code review rubric. You can find it in the [starter codes](https://github.com/HAS-Tools-Fall2020/Course_Materials/blob/master/Assignments/Starter_Codes/code_review_rubric.md) folder.
 2. Using the rubric mentioned in 1. of this part, feel free to provide as many feebdback as you want :).
-3. Use the section below to write your feedback and answer the questions.
+3. Use the *[Code Review](#Code Review)* section below to write your feedback and answer the questions.
 
 ### Forecast values
 
