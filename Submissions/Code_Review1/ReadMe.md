@@ -1,5 +1,5 @@
-## Code Review Week 7
-# Instructions to run Fierro_HW7.py
+# Code Review Week 7
+## Instructions to run Fierro_HW7.py
 
 ### Getting the data
 1. Download the streamflow data using the [USGS website](https://waterdata.usgs.gov/nwis/dv/?site_no=09506000&agency_cd=USGS).
