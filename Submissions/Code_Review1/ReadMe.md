@@ -5,11 +5,12 @@
 1. Download the streamflow data using the [USGS website](https://waterdata.usgs.gov/nwis/dv/?site_no=09506000&agency_cd=USGS).
 2. In order to download the data insert as begin date: *1989-01-01* and for the end date *10-10-2020*.
 3. For the output format select Tab-separated. Then click the *go* box.
-4. The streamflow data is going to be displayed in a different page. Do a right click in this new page and save the file as *streamflow_week7.txt*.
+4. The streamflow data is going to be displayed in a different page. Right click in this new page and save the file as *streamflow_week7.txt*.
 5. Once the data file is on your computer, save it in the data folder located in *homework-LouFie08/Submissions/Code_Review1/data*
 
 ### How to run  Fierro_HW7.py code
 1. Open Fierro_HW7.py script in your favorite text editor, but I recommend you to do it on VS Code.
+2. Verify that you are working in */Code_Review1* folder on your computer.
 2. This file is divided into cells which you will need to run. I suggest you to run each cell separately, and in the order they are stablished. There is a number for each cell located in the comment section.
 3. Run cell 0 and cell 1 to make sure streamflow file is located in the correct directory.
 4. Run the rest of the code.

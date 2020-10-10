@@ -13,7 +13,7 @@ import datetime
 # Set the file name and path to where you have stored the data
 
 filename = 'streamflow_week6.txt'  # Make sure to change the week streamflow
-filepath = os.path.join('../data', filename)  # ** MODIFY it to your path **
+filepath = os.path.join('data/', filename)  # ** MODIFY it to your path **
 print("This is your current location: ", os.getcwd())
 print("Is this path correct?", filepath)
 
@@ -75,7 +75,7 @@ alter_precit = reg_model.intercept_ + reg_model.coef_ * train_weeks['flow_tm1']
 
 # Graphical outputs supporting decisions made with model (historical data)
 fig, ax = plt.subplots(nrows=1, ncols=1, squeeze=True)
-ax.plot(wkly_flow_mean.index, wkly_flow_mean["flow"], color='blue',
+ax.plot(wkly_flow_mean.index, wkly_flow_mean["flow"], color='red',
         linestyle='--', label='Observed')
 ax.set(title=" Flow since 1989", xlabel="Date", ylabel="Avg Flow [cfs]",
        yscale='log')
