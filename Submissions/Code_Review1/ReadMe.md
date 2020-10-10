@@ -17,6 +17,8 @@
 6. The values based in the regression model are in variables: wk1_pre and wk2_pre. You can also find them printed in the interactive screen if you are using VS Code. Enter these values in the space below in the the correct section.
 7. The values to submit for this week forecast assignment are wk1_pre_ly and wk2_pre_ly. You can also find them printed in the interactive screen if you are using VS Code. Enter these values in the space below in the the correct section.
 
+Note: The script also produces plots for the historical flow, the train flow and test data used in the regresssion model, and a scatter plot.
+
 ### Update week 7 entries
 1. Go to [forecast entries](https://github.com/HAS-Tools-Fall2020/forecasting/tree/master/forecast_entries) folder and update fierro.csv entries for 1week and 2week in the 10/12/20 row.
 2. Open [fierro.csv](https://github.com/HAS-Tools-Fall2020/forecasting/blob/master/forecast_entries/fierro.csv) file and check that the values for *1week* and *2week* are there and match with the results.
