@@ -24,7 +24,7 @@
 ### Review of the py code
 1. Follow the instructions in the code review rubric. You can find it in the [starter codes](https://github.com/HAS-Tools-Fall2020/Course_Materials/blob/master/Assignments/Starter_Codes/code_review_rubric.md) folder.
 2. Using the rubric mentioned in 1. of this part, feel free to provide as many feebdback as you want :).
-3. Use the *[Code Review](#Code Review)* section below to write your feedback and answer the questions.
+3. Use the *Code Review* section below to write your feedback and answer the questions.
 
 ### Forecast values
 
