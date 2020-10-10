@@ -18,11 +18,12 @@
 
 ## Update week 7 entries
 1. Go to [forecast entries](https://github.com/HAS-Tools-Fall2020/forecasting/tree/master/forecast_entries) folder and update fierro.csv entries for 1week and 2week in the 10/12/20 row.
+2. Open [fierro.csv](https://github.com/HAS-Tools-Fall2020/forecasting/blob/master/forecast_entries/fierro.csv) file and check the values for *1week* and *2week* are there and match with the results.
 
 # Review of the py code
-1. Follow the instructions in the code review rubric. You can find it in the [Starter_Codes](https://github.com/HAS-Tools-Fall2020/Course_Materials/blob/master/Assignments/Starter_Codes/code_review_rubric.md) folder.
-2. Using the rubric mentioned in 1. of this part, provide me with some feedback to improve my code :).
-3. Use the section below to answer the questions.
+1. Follow the instructions in the code review rubric. You can find it in the [starter codes](https://github.com/HAS-Tools-Fall2020/Course_Materials/blob/master/Assignments/Starter_Codes/code_review_rubric.md) folder.
+2. Using the rubric mentioned in 1. of this part, feel free to provide as many feebdback as you want :).
+3. Use the section below to write your feedback and answer the questions.
 
 ### Code Review
 1. Is the script easy to read and understand?
