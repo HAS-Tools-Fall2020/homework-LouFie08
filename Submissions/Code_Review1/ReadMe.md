@@ -10,17 +10,17 @@
 
 ### How to run  Fierro_HW7.py code
 1. Open Fierro_HW7.py script in your favorite text editor, but I recommend you to do it on VS Code.
-2. This file is divided into cells which you will need to run. I suggest you to run each one cell separately, and in the order they are stablished. There is a number for each cell located in the comment section.
+2. This file is divided into cells which you will need to run. I suggest you to run each cell separately, and in the order they are stablished. There is a number for each cell located in the comment section.
 3. Run cell 0 and cell 1 to make sure streamflow file is located in the correct directory.
 4. Run the rest of the code.
 5. The values based in the regression model are in variables: wk1_pre and wk2_pre. You can also find them printed in the interactive screen if you are using VS Code. Enter these values in the space below in the the correct section.
 5. The values to submit for this week forecast assignment are wk1_pre_ly and wk2_pre_ly. You can also find them printed in the interactive screen if you are using VS Code. Enter these values in the space below in the the correct section.
 
 ## Update week 7 entries
-1. Go to (forecast entries)[https://github.com/HAS-Tools-Fall2020/forecasting/tree/master/forecast_entries] folder and update fierro.csv entries for 1week and 2week in the 10/12/20 row.
+1. Go to [forecast entries](https://github.com/HAS-Tools-Fall2020/forecasting/tree/master/forecast_entries) folder and update fierro.csv entries for 1week and 2week in the 10/12/20 row.
 
 # Review of the py code
-1. Follow the instructions in the code review rubric. You can find it in the (Starter_Codes)[https://github.com/HAS-Tools-Fall2020/Course_Materials/blob/master/Assignments/Starter_Codes/code_review_rubric.md] folder.
+1. Follow the instructions in the code review rubric. You can find it in the [Starter_Codes](https://github.com/HAS-Tools-Fall2020/Course_Materials/blob/master/Assignments/Starter_Codes/code_review_rubric.md) folder.
 2. Using the rubric mentioned in 1. of this part, provide me with some feedback to improve my code :).
 3. Use the section below to answer the questions.
 
