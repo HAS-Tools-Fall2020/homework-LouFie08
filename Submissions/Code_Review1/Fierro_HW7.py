@@ -12,7 +12,7 @@ import datetime
 # %% (CELL 1)
 # Set the file name and path to where you have stored the data
 
-filename = 'streamflow_week6.txt'  # Change the week streamflow to 7
+filename = 'streamflow_week7.txt'  # Change the week streamflow to 7
 filepath = os.path.join('data/', filename)  # ** MODIFY it to your path **
 print("This is your current location: ", os.getcwd())
 print("Is this path correct?", filepath)

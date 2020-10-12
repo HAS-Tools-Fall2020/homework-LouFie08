@@ -30,11 +30,11 @@ Note: The script also produces plots for the historical flow, the train flow and
 
 ### Forecast values
 
-* Week 1 forecast regression based:
-* Week 2 forecast regression based:
+* Week 1 forecast regression based: 45.57 cfs
+* Week 2 forecast regression based: 46.41 cfs
 
-* Week 1 forecast submission values:
-* Week 2 forecast submission values:
+* Week 1 forecast submission values: 58.91 cfs
+* Week 2 forecast submission values: 63.00 cfs
 
 
 
@@ -42,14 +42,26 @@ Note: The script also produces plots for the historical flow, the train flow and
 Use this section to complete and write the feedback review
 1. Is the script easy to read and understand?
  - Are variables and functions named descriptively when useful?
+    * Variables are labeled very intuitively and follow lower case naming conventions.
  - Are the comments helpful?
+    * Code comments are helpful and it was clear where the user needed to change an input. I like that you labeled each cell with a cell number to make it easy to not miss a cell when you run the script.
  - Can you run the script on your own easily?
+    * I was able to run the script with no issues and produce the desired output. However, I think both sets of predictions made at the end of the script are based on the AR model (just a different range of input data), so I'm wondering why you produced two different sets of forecasts.
  - Are the doc-strings useful?
+    * The docstring is very useful in understanding your function inputs. The only part I was not clear about was why the input to your prediction is the mean minus standard deviation of the chosen range. Some additional explanation of your statistical approach in the docstring would have been helpful.
 
 2. Does the code follow PEP8 style consistently?
  - If not are there specific instances where the script diverges from this style?
+    * Generally, great job following PEP8 standards. Some portions of script in CELL 3 are labeled (3rd Step) while other parts are labeled (3); following a consistent numeric sequencing would be helpful. Also, just a few lines of code go over the 79 column recommendation (ex: rows 136-137) and the comments are cutoff when viewing the script in a split screen with the python interactive window. I think following the 79 column recommendation does improve readability. Also, datetime was imported but not used.
 
 3. Is the code written succinctly and efficiently?
  - Are there superfluous code sections?
+    * The variable alter_precit wasn't used so it could have been deleted. I would recommend removing timestamps from x-axis labels of second figure. Also, you establish 2 time lags (flow_tm1 and flow_tm2), but your final AR model equation only has 1 slope, so I was unclear on whether the model was built off 1 or 2 time lags.
  - Is the use of functions appropriate?
+    * Your function seems very useful since you use it a few times in your code, so you've avoided repeating the same block of code and use a function instead.
  - Is the code written elegantly without decreasing readability?
+    * Still not exactly sure what elegant code is (since I'm a beginner and am sure my code isn't elegant!), but your code was written in a format and level that I could follow along with. Looks great!
+
+* Readability: 3/3
+* Style: 3/3
+* Code Efficiency: 3/3
