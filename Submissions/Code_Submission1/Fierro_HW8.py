@@ -43,12 +43,14 @@ wkly_flow_mean['flow_tm2'] = wkly_flow_mean['flow'].shift(2)  # Flow lag 2weeks
 no_weeks = wkly_flow_mean["flow"].size  # Number of weeks up to date
 
 # (3) Trainning data (about 1 year and a half data)
+# LC - you could set 60 and 20 as variables based on dates?
 train_weeks = wkly_flow_mean[no_weeks-60:no_weeks-20][['flow', 'flow_tm1',
                                                       'flow_tm2']]
 # (3) Testing data (last 5 months of 2020)
 test_weeks = wkly_flow_mean[no_weeks-20:][['flow', 'flow_tm1', 'flow_tm2']]
 
 # 3rd step. Estimate the AR model variables
+# LC - This could be a good setp to put in a function. 
 reg_model = LinearRegression()
 x_val_model = test_weeks['flow_tm1'].values.reshape(-1, 1)  # Testing values
 y_val_model = test_weeks['flow'].values  # Testing values
@@ -123,6 +125,9 @@ fig.savefig("Observed_simulated_Flow_hst.png")
 # Weekly prediction
 # b, m, end, no_weeks:
 
+# LC - Great funciton and nice documentation!
+# Next time try defining your functions up top
+# also check inot the instructions on docstrings for how they should be formatted. 
 
 def week_prediction_all(flow, m, b, week_pred, end, prev_wks):
     """This function needs the stream flow data (flow), the intersection
@@ -170,6 +175,7 @@ dates_weeks_range = wkly_flow_mean['flow'][no_weeks-begining_week_ly:
 
 wk_prd = np.zeros(16)
 # wk_prd = []
+# LC- nice work doing this in a for loop!
 for i in range(1,17):
        wk_prd = week_prediction_all(flow=wkly_flow_mean, m=m, b=b,
                                     prev_wks=begining_week_ly, end=ending_week_ly, week_pred=i)
