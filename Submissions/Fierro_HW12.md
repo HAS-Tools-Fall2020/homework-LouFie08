@@ -1,6 +1,9 @@
 # Lourdes Fierro. 11/16/20
 ## Week 12
-
+__
+## Grade
+3/3 - Nice work! Note that I fixed the path on your graph paths below to make them show up in the markdown. 
+__
 1. A brief summary of the how you chose to generate your forecast this week.
     I used last week's script since I liked the logaritmic approach we used. I adjusted it to get the streamflow data from this week, and use the same AR model :).
 I loked at the precipitation rate for the 2020 year, as well as the air temperature at 2m height, however I'm unsure on how these values can be added into the AR model since the units are different. The precipitation data set was only used to get an idea if the streamflow predicted by the AR model makes sense depending on the precipittion value seen in this new data.
@@ -18,6 +21,6 @@ The extraction was obtained in daily averages, and it was converted into weekly 
 
 - Add a plot. This can be a timeseries, map, histogram or any other plot that you think is a good summary of what you added.
 
-![](/assignment_12/preci.png)
+![](../assignment_12/preci.png)
 
-![](/assignment_12/temp.png)
+![](..//assignment_12/temp.png)
