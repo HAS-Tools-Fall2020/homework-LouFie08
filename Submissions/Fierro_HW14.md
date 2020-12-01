@@ -1,7 +1,11 @@
 # Week 14. Lourdes Fierro
 ## November 30
+
+## Grade
+3/3 - nice work.
+
 1. What is the paper or project you picked? Include a title, a link the the paper and a 1-2 sentence summary of what its about.
-- Title: Drivers and impacts of the most extreme marine heatwaves events ([link to article](https://www.nature.com/articles/s41598-020-75445-3)). 
+- Title: Drivers and impacts of the most extreme marine heatwaves events ([link to article](https://www.nature.com/articles/s41598-020-75445-3)).
 - Summary: The article is about applyin a heatwave framework in a marine approach to analyse a global sea surface temperature product and identify extreme events, based on intensity, duration and spatial extent. In the article it is identified common points between marine heatwave characteristics and seasonality, links to the El Niño-Southern Oscillation, triggering processes and impacts on ocean productivity. They also identify that the most intense events occur in summer, in cases where climatological oceanic mixed layers are shallow and winds are weak. They also have a tendency to coincide with reduced chlorophyll-a concentration at low and mid-latitudes
 
 2. What codes and/or data are associated with this paper? Provide any link to the codes and datasets and a 1-2 sentence summary of what was included with the paper (i.e. was it a github repo? A python package?A database? Where was it stored and how?)
