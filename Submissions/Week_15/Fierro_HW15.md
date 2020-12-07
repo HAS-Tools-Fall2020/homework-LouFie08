@@ -3,14 +3,18 @@
 ### Reflection
 
 1. What resources did you request on Ocelote? How long did you wait in the queue for your job to run and how long did it take to run?
-I requested 1 node, 1 core, for the standard queue for 05:00 minutes of cpu time. I waited for the job to be submitted less than ten seconds. It took six seconds to run.
+I requested 1 node, 1 core, standard queue, and 05:00 minutes of cpu time. I waited for the job to be submitted less than ten seconds. It took six seconds to run.
 2. What was the most confusing part to you about setting up and running your job on Ocelote?
-I was unsure about the setup for the account at the beginning, as well as the pip installation (I was unsure whether the packages would have conflicts between installation)
+- I was unsure about the account setup at the beginning, as well as the pip installation (I was unsure whether the one package would have conflicts with others)
+![Screenshoot](./Ocelote.png)
+
 3. Where else did you run your job? How did the setup compare to your run on Ocelote?
-I used Google colab. The code structure is similar in both cases, however in google I don't need to run a pbs file or/and submit the job.
+- I used Google colab. The code structure is similar in both cases, however, in Google colab I don't need to run a pbs file or/and submit the job (for now). Also, I can share my code and receive feedback directly from the online platform, while in Ocelote I would have to download and email the code/script.
+![Screenshoot](./google_colab.png)
 4. What questions do you still have after doing this?
-- In the case of google colab I'm not sure if I need to pip install all packages every time I run a script. Is there a way to set/create an environment (similar to Ocelote machine)?
+- In the case of google colab, I'm not sure if I need to pip install all packages every time I run a script. Is there a way to set/create an environment (similar to Ocelote machine)?
 - How can function files be called in the main script (Google colab)?
 - What happens if the time resources in Ocelote run out? Can I request more time?
+- Can I use data stored in Ocelote in a script running with  Google colab?
 
-Notes: I ran a jupyter notebook in google colab, and a python file in Ocelote.
+Notes: I ran the jupyter notebook in google colab, and a python file in Ocelote.
