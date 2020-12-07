@@ -1,0 +1,46 @@
+Start training week:  2016-01-01
+End training week:  2019-12-31
+Start training week:  2016-01-01
+End training week:  2019-12-31
+coefficient of determination: 0.776843
+Final equation is y1 = : [0.8851347] x +  0.5907568
+Last weeks's flow was 158.83333333333337 cfs! 
+
+            Predicted_Flows_Lin:
+2020-12-06            160.210968
+2020-12-13            161.440327 
+
+Week 1 forecast using model is: 49.7920673056216 Correction factor: 0.2
+Week 2 forecast using model is: 51.34220240325242 Correction factor: 0.2
+Week 3 forecast using model is: 52.89059788167893 Correction factor: 0.2
+Week 4 forecast using model is: 53.65020787365697 Correction factor: 0.2
+Week 5 forecast using model is: 56.14770405228879 Correction factor: 0.2
+Week 6 forecast using model is: 59.497763374143034 Correction factor: 0.2
+Week 7 forecast using model is: 61.49509503258122 Correction factor: 0.2
+Week 8 forecast using model is: 62.58541565931739 Correction factor: 0.2
+Week 9 forecast using model is: 64.53365705756391 Correction factor: 0.2
+Week 10 forecast using model is: 70.72538932270946 Correction factor: 0.2
+Week 11 forecast using model is: 80.16090649956966 Correction factor: 0.2
+Week 12 forecast using model is: 94.25948078156027 Correction factor: 0.2
+Week 13 forecast using model is: 114.06090856149785 Correction factor: 0.2
+Week 14 forecast using model is: 136.92219661308044 Correction factor: 0.2
+Week 15 forecast using model is: 157.8844979677115 Correction factor: 0.2
+Week 16 forecast using model is: 193.96041943063815 Correction factor: 0.2
+Method of flow quantiles for month               flow code   site_no   datetime  year  month  day  dayofweek
+datetime                                                                
+1989-08-01  146.0    A  09506000 1989-08-01  1989      8    1          1
+1989-08-02  137.0    A  09506000 1989-08-02  1989      8    2          2
+1989-08-03  130.0    A  09506000 1989-08-03  1989      8    3          3
+1989-08-04  178.0    A  09506000 1989-08-04  1989      8    4          4
+1989-08-05  196.0    A  09506000 1989-08-05  1989      8    5          5
+...           ...  ...       ...        ...   ...    ...  ...        ...
+2020-12-01  159.0    P  09506000 2020-12-01  2020     12    1          1
+2020-12-02  157.0    P  09506000 2020-12-02  2020     12    2          2
+2020-12-03  157.0    P  09506000 2020-12-03  2020     12    3          3
+2020-12-04  159.0    P  09506000 2020-12-04  2020     12    4          4
+2020-12-05  162.0    P  09506000 2020-12-05  2020     12    5          5
+
+[4870 rows x 8 columns] : [ 34.22857143 160.42857143 203.28571429 272.45714286]
+For plots, Green is flow max above 75%, and Red is below 50%
+Your group tmeixner has been charged 0:00:09 (0:00:09 X 1 cpus).
+You previously had 35999:46:00.  You now have 35999:45:51 of standard_time remaining
